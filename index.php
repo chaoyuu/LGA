@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
     session_start();
     if (isset($_SESSION['SESSION_EMAIL'])) {
@@ -115,28 +114,4 @@
 
 </body>
 
-=======
-<!DOCTYPE html>
-<html>
-<head>
-	<title>LOGIN</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-     <form action="login.php" method="post">
-     	<h2>LOGIN</h2>
-     	<?php if (isset($_GET['error'])) { ?>
-     		<p class="error"><?php echo $_GET['error']; ?></p>
-     	<?php } ?>
-     	<label>User Name</label>
-     	<input type="text" name="uname" placeholder="User Name"><br>
-
-     	<label>Password</label>
-     	<input type="password" name="password" placeholder="Password"><br>
-
-     	<button type="submit">Login</button>
-         <a href="Signup.php" class="ca">Create an account</a>
-     </form>
-</body>
->>>>>>> 6492c4f9982350bc4dc7a9406a9630b7d50bd2b1
 </html>
