@@ -34,7 +34,7 @@
 
             if (empty($row['code'])) {
                 $_SESSION['SESSION_EMAIL'] = $email;
-                header("Location: welcome.php");
+                header("Location: home.php");
             } else {
                 $msg = "<div class='alert alert-info'>First verify your account and try again.</div>";
             }
